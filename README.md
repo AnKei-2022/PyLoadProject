@@ -12,8 +12,8 @@ import plp
 
 plp.pyload(
     "MyProgram", # project name
-    "MyProgram.zip", # 
-    "C:\\Program Files\\MyProgram\\MyProgram.exe"
+    "MyProgram.zip", # the path to the Zip folder
+    "C:\\Program Files\\MyProgram\\MyProgram.exe" # the path to the executable file
 )
 
 ```
