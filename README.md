@@ -18,5 +18,15 @@ plp.pyload(
 
 ```
 
+And now a folder with the name of your project will be created in the current directory.
+
+```python
+import myprogram as mp
+
+mp.install()
+```
+
+Import the module with the name of your project and run the "install" function.
+
 ## How does it work?
 All your files need to be compressed into a ZIP file, then this file is copied and embedded in Python code. When you run the program, a ZIP file is created on your PC and extracted with your files.
