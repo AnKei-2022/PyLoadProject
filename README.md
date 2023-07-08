@@ -1,13 +1,13 @@
-# PyLoadProject
+# PyLoadProjects
 A simple installer of the program. Many probably know that it is possible to convert .py files to .exe, but what if the project includes not only modules and python files used.
 
 ```
-pip install pyloadproject
+pip install pyloadprojects
 ```
 First you need to have a Zip folder with your finished project to copy. Import the module, specify the parameters in the pyload function.
 
 ```python
-import pyloadproject as plp
+import pyloadprojects as plp
 
 
 plp.pyload(
